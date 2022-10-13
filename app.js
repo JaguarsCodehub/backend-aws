@@ -3,7 +3,7 @@ const app = express();
 
 app.get("/", (req, res) => {
   res.json({
-    mesg: "Hello Backend",
+    mesg: "Hello Backend, this is coming from Node.JS",
   });
 });
 
